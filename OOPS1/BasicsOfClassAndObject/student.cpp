@@ -30,4 +30,9 @@ class Student{
         void setAge(int age){
             this->age = age;
         }
+
+        //destructor.
+        ~Student(){
+
+        }
 };
