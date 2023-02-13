@@ -27,7 +27,7 @@ class Fraction{
         //adding two fraction
         void add(const Fraction& f){
             int lcm = f.denomenator*this->denomenator/__gcd(f.denomenator,this->denomenator);
-            int num = lcm/f.denomenator*f.numenator;
+            int num = lcm/f.denomenator*f.numenator+lcm/denomenator*numenator;
             this->numenator = num;
             this->denomenator = lcm;
             simplify();
