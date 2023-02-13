@@ -12,7 +12,12 @@ int main(){
     // s3->age = 22; //this line will give error
     s3->setAge(22);
     s3->display();
-    
+
     delete s3; //we have to call the destructor for dynamically created objects explicitly.
+
+
+    //copy assignment operator
+    Student s4(2,123);
+    s1 = s4; //copy assignment operator.
     return 0;
 }
