@@ -8,6 +8,10 @@ class Student{
         this->rool = rool;
         totalStudents++;
     }
+
+    static int getTotalStudents(){
+        return Student::totalStudents;
+    }
 };
 
 int Student::totalStudents = 0; //initialization of static fields
