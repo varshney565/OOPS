@@ -15,15 +15,18 @@ class Student{
             this->RollNo = RollNo;
         }
         
+        //printing the object
         void display(){
             cout<<"age"<<" : "<<age<<"\n";
             cout<<"roll_number : "<<RollNo<<"\n";
         }
 
+        //setter
         int getAge(){
             return this->age;
         }
 
+        //getter
         void setAge(int age){
             this->age = age;
         }
