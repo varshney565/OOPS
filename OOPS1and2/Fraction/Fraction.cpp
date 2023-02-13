@@ -15,7 +15,7 @@ class Fraction{
 
         }
         //print the fraction
-        void display(){
+        void display() const{
             cout<<this->numenator <<"/"<<this->denomenator;
         }
         //simplifing two fractions
