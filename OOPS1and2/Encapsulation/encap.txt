@@ -1,0 +1,6 @@
+encapsulation compromises of two parts
+
+=> making the fields private.
+=> provide getters and setters to access them.
+
+e.g => vishwa sir sugar example.
