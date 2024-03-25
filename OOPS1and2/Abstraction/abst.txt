@@ -1,0 +1,7 @@
+hinding the unnecessary details from the outside world for 
+=> better customer experience.
+=> security.
+
+like sort function of c++ library.
+
+we don't need to care about how it is sorting the array we are just using it. 
