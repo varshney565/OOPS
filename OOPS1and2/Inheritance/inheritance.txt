@@ -1,0 +1,35 @@
+class Parent {
+
+}
+
+class Child1 : public Parent {}        ==> public(public),private(not inherited),protected(protected)
+class Child2 : protected Parent {}     ==> public(protected),private(not inherited),protected(protected)
+class Child3 : private Parent {}       ==> public(private),private(not inherited),protected(private)
+
+
+
+class A {}
+class B : A {}
+class C : B {}
+
+order of constructor => (A -> B -> C)
+order of destructor  => (C -> B -> A)
+
+one thing to note if B or A does't have default constructor than we have to explicitly pass the 
+parameterized constructor.
+
+i.e.
+
+Class C : B {
+    C(val) : B(val) {
+
+    }
+}
+
+types of inheritance : 
+
+a) single inheritance.      A  ->  B
+b) multilevel inheritance.  A  ->  B  ->  C
+c) Hirarchial inheritance.  A  ->  B, C, D
+d) Multiple inheritance. A,B,C ->  D
+e) Hybrid inheritance. (combination of >= 2) A -> B,C -> D(dymond problem)
