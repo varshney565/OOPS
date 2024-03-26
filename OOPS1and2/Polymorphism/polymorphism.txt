@@ -1,0 +1,6 @@
+polymorphism means many forms:
+two types ==> 
+    a) compile time
+        i) function overloading
+        ii) operator overloading
+    b) run time
