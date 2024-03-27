@@ -1,5 +1,0 @@
-boolean,byte,short,int,long,char,double,float
-
-=>widening.
-=>downcasting.
-=>promotion.
