@@ -1,0 +1,25 @@
+how float and double getting stored in the memory ?
+
+float
+ ___________________________________________
+|                                           |
+|-1bit |-----8bit-----|--------23bit--------|
+|___________________________________________|
+
+double
+ ___________________________________________
+|                                           |
+|-1bit |-----11bit-----|--------52bit-------|
+|___________________________________________|
+
+
+sign <--> exponent <--> mentissa
+
+to binary
+step 1 : convert the number in binary.
+step 2 : convert it in the form of (1.xxyyzz)*2^exponent.
+step 3 : e = bias + exponent(127+exponent).
+step 4 : now put e in the exponent and xxyyzz in the mentissa
+
+to floating point number
+(-1)^sign * (1+mentissa) * 2^(e-127)
