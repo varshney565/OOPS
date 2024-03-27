@@ -1,0 +1,2 @@
+=> we can't create object of an interface.
+=> parent can hold reference of child object.
