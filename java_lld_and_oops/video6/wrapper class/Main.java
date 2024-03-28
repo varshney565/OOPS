@@ -17,8 +17,8 @@
  */
 
 public class Main {
-    //autoboxing
     public static void main(String []args) {
+        //autoboxing
         int b = 12;
         Integer a = b;
         System.out.println(a);
