@@ -8,7 +8,7 @@ class Super implements Cloneable {
 
     @Override
     public String toString() {
-        return "THIS IS SUPER CLASS !!";
+        return "THIS IS SUPER CLASS!";
     }
 }
 
