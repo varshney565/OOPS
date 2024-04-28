@@ -1,0 +1,8 @@
+public class Hello {
+    Hello() {
+        //name is same as class name. why ??
+        --> easy to identify by class name.
+        //constructor do not have any return type
+        //constructor cannot be static or final or abstract,synchronized.
+    }
+}
